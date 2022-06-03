@@ -1,11 +1,12 @@
 import React from 'react'
-import Header from '../components/Header'
+
+import Landing from './Landing'
 
 
 const Home = () => {
   return (
     <div className="w-full h-full">
-      <Header />
+      <Landing />
     </div>
   )
 }
